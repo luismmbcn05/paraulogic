@@ -12,6 +12,6 @@ npm start
 ```
 Docker container available via
 ```
-docker run --network host -d luisupc/paraulogic-solver
+docker run -p 2464:2464 -d luisupc/paraulogic-solver:original
 ```
 Access the webserver via http://localhost:2464
